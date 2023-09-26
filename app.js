@@ -14,6 +14,23 @@ const passowrdBox12 = document.querySelector("#password12");
 const passowrdBox13 = document.querySelector("#password13");
 const passowrdBox14 = document.querySelector("#password14");
 
+// Select Copy button
+const copyPassowrdBtn = document.getElementById("copy-password");
+const copyPassowrdBtn1 = document.getElementById("copy-password1");
+const copyPassowrdBtn2 = document.getElementById("copy-password2");
+const copyPassowrdBtn3 = document.getElementById("copy-password3");
+const copyPassowrdBtn4 = document.getElementById("copy-password4");
+const copyPassowrdBtn5 = document.getElementById("copy-password5");
+const copyPassowrdBtn6 = document.getElementById("copy-password6");
+const copyPassowrdBtn7 = document.getElementById("copy-password7");
+const copyPassowrdBtn8 = document.getElementById("copy-password8");
+const copyPassowrdBtn9 = document.getElementById("copy-password9");
+const copyPassowrdBtn10 = document.getElementById("copy-password10");
+const copyPassowrdBtn11 = document.getElementById("copy-password11");
+const copyPassowrdBtn12 = document.getElementById("copy-password12");
+const copyPassowrdBtn13 = document.getElementById("copy-password13");
+const copyPassowrdBtn14 = document.getElementById("copy-password14");
+
 const length = 8;
 
 const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -233,3 +250,94 @@ generatebtn.addEventListener("click", createPassword11);
 generatebtn.addEventListener("click", createPassword12);
 generatebtn.addEventListener("click", createPassword13);
 generatebtn.addEventListener("click", createPassword14);
+
+function copyPassowrd() {
+  passowrdBox.select();
+  document.execCommand("copy");
+}
+
+function copyPassowrd1() {
+  passowrdBox1.select();
+  document.execCommand("copy");
+}
+
+function copyPassowrd2() {
+  passowrdBox2.select();
+  document.execCommand("copy");
+}
+
+function copyPassowrd3() {
+  passowrdBox3.select();
+  document.execCommand("copy");
+}
+
+function copyPassowrd4() {
+  passowrdBox4.select();
+  document.execCommand("copy");
+}
+
+function copyPassowrd5() {
+  passowrdBox5.select();
+  document.execCommand("copy");
+}
+
+function copyPassowrd6() {
+  passowrdBox6.select();
+  document.execCommand("copy");
+}
+
+function copyPassowrd7() {
+  passowrdBox7.select();
+  document.execCommand("copy");
+}
+
+function copyPassowrd8() {
+  passowrdBox8.select();
+  document.execCommand("copy");
+}
+
+function copyPassowrd9() {
+  passowrdBox9.select();
+  document.execCommand("copy");
+}
+
+function copyPassowrd10() {
+  passowrdBox10.select();
+  document.execCommand("copy");
+}
+
+function copyPassowrd11() {
+  passowrdBox11.select();
+  document.execCommand("copy");
+}
+
+function copyPassowrd12() {
+  passowrdBox12.select();
+  document.execCommand("copy");
+}
+
+function copyPassowrd13() {
+  passowrdBox13.select();
+  document.execCommand("copy");
+}
+
+function copyPassowrd14() {
+  passowrdBox14.select();
+  document.execCommand("copy");
+}
+
+copyPassowrdBtn.addEventListener("click", copyPassowrd);
+copyPassowrdBtn1.addEventListener("click", copyPassowrd1);
+copyPassowrdBtn2.addEventListener("click", copyPassowrd2);
+copyPassowrdBtn3.addEventListener("click", copyPassowrd3);
+copyPassowrdBtn4.addEventListener("click", copyPassowrd4);
+copyPassowrdBtn5.addEventListener("click", copyPassowrd5);
+copyPassowrdBtn6.addEventListener("click", copyPassowrd6);
+copyPassowrdBtn7.addEventListener("click", copyPassowrd7);
+copyPassowrdBtn8.addEventListener("click", copyPassowrd8);
+copyPassowrdBtn9.addEventListener("click", copyPassowrd9);
+copyPassowrdBtn10.addEventListener("click", copyPassowrd10);
+copyPassowrdBtn11.addEventListener("click", copyPassowrd11);
+copyPassowrdBtn12.addEventListener("click", copyPassowrd12);
+copyPassowrdBtn13.addEventListener("click", copyPassowrd13);
+copyPassowrdBtn14.addEventListener("click", copyPassowrd14);
