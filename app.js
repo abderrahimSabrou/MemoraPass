@@ -1,3 +1,4 @@
+// Select All password boxes
 const passowrdBox = document.querySelector("#password");
 const passowrdBox1 = document.querySelector("#password1");
 const passowrdBox2 = document.querySelector("#password2");
