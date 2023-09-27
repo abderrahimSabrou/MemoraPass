@@ -1,4 +1,5 @@
-// Select All password boxes
+// Select all password input fields
+
 const passowrdBox = document.querySelector("#password");
 const passowrdBox1 = document.querySelector("#password1");
 const passowrdBox2 = document.querySelector("#password2");
@@ -15,7 +16,7 @@ const passowrdBox12 = document.querySelector("#password12");
 const passowrdBox13 = document.querySelector("#password13");
 const passowrdBox14 = document.querySelector("#password14");
 
-// Select Copy button
+// Select all Copy buttons
 const copyPassowrdBtn = document.getElementById("copy-password");
 const copyPassowrdBtn1 = document.getElementById("copy-password1");
 const copyPassowrdBtn2 = document.getElementById("copy-password2");
@@ -32,14 +33,16 @@ const copyPassowrdBtn12 = document.getElementById("copy-password12");
 const copyPassowrdBtn13 = document.getElementById("copy-password13");
 const copyPassowrdBtn14 = document.getElementById("copy-password14");
 
+// Password length
 const length = 8;
 
-const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-const lowerCase = "abcdefghijklmnopqrstuvwxyz";
-const number = "0123456789";
+const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; // Uppercase characters
+const lowerCase = "abcdefghijklmnopqrstuvwxyz"; // Lowercase characters
+const number = "0123456789"; // Numeric characters
 
-const allChars = upperCase + lowerCase + number;
+const allChars = upperCase + lowerCase + number; // All characters for password generation
 
+// Function to create a password
 function createPassword() {
   let password = "";
   password += upperCase[Math.floor(Math.random() * upperCase.length)];
@@ -50,6 +53,7 @@ function createPassword() {
     password += allChars[Math.floor(Math.random() * allChars.length)];
   }
 
+  // Set the generated password in the corresponding password input field
   passowrdBox.value = password;
 }
 
@@ -234,7 +238,7 @@ function createPassword14() {
 
   passowrdBox14.value = password;
 }
-
+// Add event listeners for generate passwords for all boxes after click
 const generatebtn = document.getElementById("generate");
 generatebtn.addEventListener("click", createPassword);
 generatebtn.addEventListener("click", createPassword1);
@@ -252,6 +256,7 @@ generatebtn.addEventListener("click", createPassword12);
 generatebtn.addEventListener("click", createPassword13);
 generatebtn.addEventListener("click", createPassword14);
 
+//  add Function to copy passwords
 function copyPassowrd() {
   passowrdBox.select();
   document.execCommand("copy");

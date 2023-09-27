@@ -28,3 +28,5 @@ Follow these steps to get started with MemoraPass:
 git clone https://github.com/abderrahimSabrou/MemoraPass.git
 
 ```
+
+2. Run the app by opening `homePage.html` file
