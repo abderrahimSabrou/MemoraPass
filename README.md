@@ -2,7 +2,7 @@
 
 # MemoraPass
 
-<img src="./images/memorapass-logo.png" widtd="200px" height="200px">
+<img src="./build/images/memorapass-logo.png" widtd="200px" height="200px">
 
 ## About the App
 
@@ -16,7 +16,7 @@ MemoraPass is a user-friendly password generator designed to help you create eas
 
 ## Preview of the app
 
-![preview](./images/app.png)
+![preview](./app.png)
 
 ## Getting Started
 
