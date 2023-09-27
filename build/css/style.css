@@ -609,8 +609,16 @@ video {
   height: 100vh;
 }
 
+.h-\[200px\] {
+  height: 200px;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-\[200px\] {
+  width: 200px;
 }
 
 .cursor-pointer {
@@ -652,6 +660,11 @@ video {
 .border-\[\#7F8EA3\] {
   --tw-border-opacity: 1;
   border-color: rgb(127 142 163 / var(--tw-border-opacity));
+}
+
+.border-red-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(248 113 113 / var(--tw-border-opacity));
 }
 
 .bg-\[\#030711\] {
