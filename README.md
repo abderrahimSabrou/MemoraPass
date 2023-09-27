@@ -29,4 +29,4 @@ git clone https://github.com/abderrahimSabrou/MemoraPass.git
 
 ```
 
-2. Run the app by opening `homePage.html` file
+2. Run the app by opening `build/index.html` file
